@@ -1,0 +1,135 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.soustitre {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.grostexte {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.texte, #textegeo, .textep2 {
+    font-size: 16.5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 24px;
+}
+
+#textegeo {
+    text-align: center;
+}
+
+div {
+    border: 5px solid black;
+    width: 20%;
+    height: 240px;
+    color: #000000;
+    text-align: center;
+    align-content: space-around;
+    font-size: 30px;
+}
+
+.divp2 {
+    border: 3px solid black;
+    width: 36%;
+    height: 56px;
+}
+
+#div1 {
+    background-color: lightgreen;
+    float: left;
+    margin-left: 9%;
+}
+
+#div2 {
+    background-color: white;
+    float: left;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+#div3 {
+    background-color: red;
+    float: left;
+}
+
+.lien {
+    color: #000000;
+}
+
+.lien:hover {
+    color: darkolivegreen;
+}
+
+.imgrecette, #imgbruschetta, .imgmonuments, #tourpise {
+    float: right;
+    margin-left: 20px;
+    margin-right: 40px;
+    border: 4px solid darkolivegreen;
+    height: 30%;
+    width: 30%;
+}
+
+#imgbruschetta {
+    height: 20%;
+    width: 20%;
+}
+
+.imgmonuments, #tourpise {
+    float: left;
+    margin-left: 75px;
+    height: 40%;
+    width: 40%;
+}
+
+#tourpise {
+    height: 20%;
+    width: 20%;
+}
+
+.ingrédients, .villes {
+    margin-left: 45px;
+    margin-right: 45px;
+    line-height: 27px;
+}
+
+.villes {
+    font-size: 16.5px;
+}
+
+#body1 {
+    background: url("https://www.abritel.fr/guides-voyage/wp-content/uploads/15pMNqMjZsqwSeaqg8KiOm/3006da772119dc83674fbc432b91e9e7/willian-west-355103-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#body2 {
+    background: linear-gradient(to bottom, blue, 10%, lightblue, 90%, green);
+    background-attachment: fixed;
+}
+
+#body3 {
+    background: radial-gradient( lightgreen,darkolivegreen);
+    background-attachment: fixed;
+}
+
+#body4 {
+    background: linear-gradient(to bottom right, lightgreen, white, red);
+    background-attachment: fixed;
+}
